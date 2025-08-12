@@ -9,5 +9,5 @@ app.use(express.json());
 app.use('/calcular', mathRoutes);
 
 app.listen(port, () => {
-    console.log("Funcionando!");
+    console.log("Funcionando o servidor!");
 })
